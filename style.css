@@ -1,0 +1,100 @@
+body {
+	padding: 50px;
+	background-image: url("Untitled.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-family: 'Uncial Antiqua', cursive;
+	font-weight: bold;
+}
+.fortnite { 
+	color: red;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-shadow: 2px 2px white;
+}
+.content-fortnite {
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Uncial Antiqua', cursive;
+	color: rgb(9, 48, 39);
+	text-shadow: 4px 4px red;
+}
+.col2 {
+	border: 4px dashed purple;
+	float: left;
+}
+.photo {
+	box-shadow: 9px 9px 9px purple;
+	transform: rotate(10deg);
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	padding: 10px 24px;
+	font-size: 16px;
+	background-color: #4CAF50;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 12px;
+}
+ul {
+    list-style-type: none;
+	height: 56px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+	font-family: 'Pacifico', cursive;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-family: 'Pacifico', cursive;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-family: 'Pacifico', cursive;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
