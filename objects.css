@@ -1,0 +1,288 @@
+	input[type="submit"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: #ccddff;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+        -moz-box-shadow: 2px 2px 1px 1px #ccc;;
+        -webkit-box-shadow: 2px 2px 1px 1px #ccc;;
+        box-shadow: 2px 2px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="submit"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	input[type="button"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: #ccddff;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+        -moz-box-shadow: 2px 2px 1px 1px #ccc;;
+        -webkit-box-shadow: 2px 2px 1px 1px #ccc;;
+        box-shadow: 2px 2px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="button"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	input[type="reset"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: #ccddff;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 7px;
+	    border-radius: 7px;
+
+        -moz-box-shadow: 3px 3px 1px 1px #ccc;;
+        -webkit-box-shadow: 3px 3px 1px 1px #ccc;;
+        box-shadow: 3px 3px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="reset"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 7px;
+	    border-radius: 7px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	input[type="file"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: #ccddff;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 7px;
+	    border-radius: 7px;
+
+        -moz-box-shadow: 3px 3px 1px 1px #ccc;;
+        -webkit-box-shadow: 3px 3px 1px 1px #ccc;;
+        box-shadow: 3px 3px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="file"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 11px;
+	    font-weight: Bold;
+	    height: 25px;
+
+	    -moz-border-radius: 7px;
+	    border-radius: 7px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	input[type="text"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: White;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Bold;
+	    height: 22px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+        -moz-box-shadow: 2px 2px 1px 1px #ccc;;
+        -webkit-box-shadow: 2px 2px 1px 1px #ccc;;
+        box-shadow: 2px 2px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="text"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Bold;
+	    height: 22px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	input[type="password"]
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: Black;
+	    background-color: White;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Bold;
+	    height: 22px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+        -moz-box-shadow: 2px 2px 1px 1px #ccc;;
+        -webkit-box-shadow: 2px 2px 1px 1px #ccc;;
+        box-shadow: 2px 2px 1px 1px #ccc;;
+
+ 		cursor:hand;
+		border-style: outset;
+	}
+	input[type="password"]:hover
+	{
+	    align-text: center;
+        vertical-align : middle;
+	    color: #473C8B;
+	    background-color: #98FB98;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Bold;
+	    height: 22px;
+
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+
+		cursor:hand;
+		border-style: outset;
+	}
+
+
+	select
+	{
+	    color: Black;
+	    background: White no-repeat;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Normal;
+	    height: 22px;
+ 		cursor:hand;
+        border: 1px solid Cyan;
+	}
+	select:hover
+	{
+	    color: #473C8B;
+	    background: #98FB98 no-repeat;
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-weight: Normal;
+	    height: 22px;
+		cursor:hand;
+        border: 1px solid Cyan;
+	}
+
+    input[disabled]
+    {
+	border: 1px solid #999;
+	background-color: #ddd;
+    color: White;
+    }
+    input[disabled]:hover
+    {
+	border: 1px solid #999;
+	background-color: #ddd;
+    color: White;
+    }
+
+    select[disabled]
+    {
+	border: 1px solid #999;
+	background-color: #ddd;
+    color: White;
+    }
+    select[disabled]:hover
+    {
+	border: 1px solid #999;
+	background-color: #ddd;
+    color: White;
+    }
