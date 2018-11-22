@@ -54,7 +54,7 @@ body {
 	-ms-backface-visibility: hidden;*/
 }
 body.color, div.CKBackground1 {
-    background: #F9FBFF url(/ck/images/background.jpg) repeat-x top;
+    background: #F9FBFF url(background.jpg) repeat-x top;
     color:#333;
     /*background-color: transparent;*/
 }
