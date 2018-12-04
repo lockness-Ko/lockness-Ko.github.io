@@ -5,6 +5,22 @@
   </head>
   <body>
     <script src="https://unpkg.com/@pusher/chatkit-client@1/dist/web/chatkit.js"></script>
-    <script></script>
+    <script>const tokenProvider = new Chatkit.TokenProvider({
+  url: "YOUR TEST TOKEN ENDPOINT"
+});
+
+const chatManager = new Chatkit.ChatManager({
+  instanceLocator: "YOUR INSTANCE LOCATOR",
+  userId: "YOUR USER ID",
+  tokenProvider: tokenProvider
+});
+    chatManager
+  .connect()
+  .then(currentUser => {
+    console.log("Connected as user ", currentUser);
+  })
+  .catch(error => {
+    console.error("error:", error);
+  });</script>
   </body>
 </html>
