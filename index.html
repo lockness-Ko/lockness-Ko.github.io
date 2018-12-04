@@ -93,10 +93,12 @@
     y1 = dis*Math.cos(dir + (zrot)*Math.PI/180);
   }
   function control() {
-    if (keys["38"]) {xrot+=1} // Up
+    /*if (keys["38"]) {xrot+=1} // Up
     if (keys["40"]) {xrot-=1} // Down
     if (keys["37"]) {yrot+=1} // Left
-    if (keys["39"]) {yrot-=1} // Right
+    if (keys["39"]) {yrot-=1} // Right*/
+    xrot = event.clientX;
+    yrot = event.clientY;
     // Movement
     if (keys["87"]) { // Forward
       pz += 2*Math.cos(yrot*Math.PI/180);
