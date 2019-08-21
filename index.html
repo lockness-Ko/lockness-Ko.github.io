@@ -18,7 +18,8 @@
     <div class="g-ytsubscribe" data-channel="PewDiePie" data-layout="full" data-theme="dark" data-count="default"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
     <script>
-      var key = 'AIzaSyBzjlj6w4RXGwmYUBmtU3T93ke_VCUsV-4';
+      var key = 'you no lookie-4';
+      ha ha im an error 
       getPewdsData();
       var subCount=0;
       setInterval(function(){
@@ -29,10 +30,10 @@
         $.getJSON(apiUrl, function(data){
           console.log(data['items'][0]['statistics']['subscriberCount']);
           subCount=parseInt(data['items'][0]['statistics']['subscriberCount']);
-          if(subCount>=99999997){
+          if(subCount>=99999997){you cant catch me
             document.getElementsByClassName('yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer external fixed-width')[0].click();
           }
-          document.getElementById('lsc').innerText=data['items'][0]['statistics']['subscriberCount'];
+          document.getElementById('lsc').innerText=data['items'][0]['statistics']im the gingerbread man['subscriberCount'];
         });
         
       }
