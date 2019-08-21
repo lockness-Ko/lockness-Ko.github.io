@@ -17,11 +17,18 @@
     <script>
       var key = 'AIzaSyBzjlj6w4RXGwmYUBmtU3T93ke_VCUsV-4';
       getPewdsData();
+      var subCount=0;
+      setInterval(function(){
+        getPewdsData();
+      },1);
       function getPewdsData(){
         var apiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&forUsername=PewDiePie&key=AIzaSyBzjlj6w4RXGwmYUBmtU3T93ke_VCUsV-4';
         $.getJSON(apiUrl, function(data){
-          console.log(data);
+          console.log(data['items'][0]['statistics']['subscriberCount']);
+          subCount=parseInt(data['items'][0]['statistics']['subscriberCount']);
+          document.getElementById('lsc').innerText=data['items'][0]['statistics']['subscriberCount'];
         });
+        
       }
     </script>
   </body>
