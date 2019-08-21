@@ -29,7 +29,7 @@
         $.getJSON(apiUrl, function(data){
           console.log(data['items'][0]['statistics']['subscriberCount']);
           subCount=parseInt(data['items'][0]['statistics']['subscriberCount']);
-          if(subCount>=99999999){
+          if(subCount>=99999997){
             document.getElementsByClassName('yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer external fixed-width')[0].click();
           }
           document.getElementById('lsc').innerText=data['items'][0]['statistics']['subscriberCount'];
